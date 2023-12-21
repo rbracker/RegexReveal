@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Reveal
 
-Introductory paragraph (replace this with your text)
+Welcome to the Regex Reveal tutorial, where we unravel the mysteries of regular expressions (regex) in JavaScript. This guide will explore a specific regex and break down each component, providing a detailed understanding of its functionality. Whether you're a web development student or a curious coder, this tutorial aims to demystify the intricacies of regex and enhance your comprehension of search patterns in JavaScript.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this tutorial, we will dissect the regex for "Matching a Hex Value": /^#?([a-f0-9]{6}|[a-f0-9]{3})$/. This regex validates whether a given string represents a hexadecimal color code, allowing for variations with or without a leading '#' symbol. The tutorial will delve into different regex components, explaining their roles and providing code snippets for better comprehension.
 
 ## Table of Contents
 
@@ -46,4 +46,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This tutorial is authored by Ranee Bracker. Feel free to connect with me on GitHub for more insights into JavaScript and web development.
