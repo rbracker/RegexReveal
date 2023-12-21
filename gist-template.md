@@ -99,21 +99,56 @@ In the context of the "Matching a Hex Value" regex, these quantifiers play a cru
 
 ### OR Operator
 
+The OR operator (|) allows for alternative matching. In our regex, it permits either a 6-character or 3-character hex value.
+
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
+|: Represents the logical OR.
+
+
+Character classes define a set of characters. [a-f0-9] specifies valid characters for a hexadecimal value.
+
 ### Character Classes
+
+Character classes define a set of characters. [a-f0-9] specifies valid characters for a hexadecimal value.
+
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+[a-f0-9]:
+Matches any lowercase hex digit (0-9, a-f).
 
 ### Flags
 
+Flags are optional parameters that modify regex behavior. Our regex does not use flags.
+
 ### Grouping and Capturing
+
+Grouping (()) allows us to treat parts of the regex as a single unit. It captures the hex value for further use.
+
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+(): Groups the entire hex value.
 
 ### Bracket Expressions
 
+Brackets ([]) define a character set. They play a role in specifying valid hex characters.
+
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+[]: Encloses the character set.
+
 ### Greedy and Lazy Match
+
+Our regex is greedy, meaning it matches as much as possible while still allowing the entire regex to match.
 
 ### Boundaries
 
+Our regex does not use boundaries.
+
 ### Back-references
 
+Our regex does not use back-references.
+
 ### Look-ahead and Look-behind
+
+Our regex does not use look-ahead or look-behind
 
 ## Author
 
@@ -122,3 +157,4 @@ This tutorial is written by Ranee Bracker. Feel free to connect with me on GitHu
 My sources:
 - [MDN JavaScript Guide on Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 - [MDN Regular Expressions Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+- [MDN Web docs_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
